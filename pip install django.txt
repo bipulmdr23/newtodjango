@@ -1,0 +1,13 @@
+pip install django
+pip install virtualenvwrapper-win
+mkvirtualenv test
+django-admin startproject newtodjango
+python manage.py startapp calc
+
+in settings to route the home,result and baste htmls 
+in DIRS :[os.path.join(BASE_DIR,'templates')]
+
+REQUEST GET AND POST METHOD
+GET : the client is requesting data from the server .... the data can be seen on the address bar
+POST : the client is passing a data to the server ....the data is hidden useful for logins and password...
+for post use "method='post'" in the form and { % csrf_token % }
