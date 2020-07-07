@@ -19,7 +19,7 @@
 <body>
 
 <div class="super_container">
-	
+
 	<!-- Header -->
 
 	<header class="header">
@@ -91,15 +91,15 @@
 			</ul>
 		</div>
 	</div>
-	
+
 	<!-- Home -->
 
 	<div class="home">
-		
+
 		<!-- Home Slider -->
 		<div class="home_slider_container">
 			<div class="owl-carousel owl-theme home_slider">
-				
+
 				<!-- Slide -->
 				<div class="owl-item">
 					<div class="background_image" style="background-image:url({%  static 'images/home_slider.jpg' %})"></div>
@@ -230,7 +230,7 @@
 
 						</div>
 					</div>
-				</div>		
+				</div>
 			</div>
 		</div>
 	</div>
@@ -252,7 +252,7 @@
 						<!-- Destination -->
 						<div class="destination item">
 							<div class="destination_image">
-								<img src="{{BaseURL}}/{{dest.img}}" alt="">
+								<img src="{{dest.img.url}}" alt="">
 								{%if dest.offer %}
 								<div class="spec_offer text-center"><a href="#">Special Offer</a></div>
 								{% endif %}
@@ -287,7 +287,7 @@
 					<!-- Testimonials Slider -->
 					<div class="testimonials_slider_container">
 						<div class="owl-carousel owl-theme testimonials_slider">
-							
+
 							<!-- Slide -->
 							<div class="owl-item text-center">
 								<div class="testimonial">Lorem ipsum dolor sit amet, consectetur adipiscing elit. lobortis dolor. Cras placerat lectus a posuere aliquet. Curabitur quis vehicula odio.</div>
@@ -342,7 +342,7 @@
 			<div class="row">
 				<div class="col-xl-8">
 					<div class="news_container">
-						
+
 						<!-- News Post -->
 						<div class="news_post d-flex flex-md-row flex-column align-items-start justify-content-start">
 							<div class="news_post_image"><img src="{% static 'images/news_1.jpg' %}" alt=""></div>
